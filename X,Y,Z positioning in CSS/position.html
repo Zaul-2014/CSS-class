@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Positioning in CSS</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+div{
+
+border: 3px solid blue;
+
+right : 30px;
+
+
+}
+
+.absolute{
+
+position:absolute;
+
+border: 3px solid rgb(234, 0, 0);
+
+right: 50px;
+
+}
+
+.relative{
+
+position:relative;
+
+border: 3px solid burlywood;
+
+left: 100px;
+
+}
+
+.fixed{
+
+position: fixed;
+
+top:0;
+
+right: 20px;
+
+width:300px;
+
+border: 3px solid rgb(1, 243, 243);
+
+}
+
+.sticky{
+
+position: sticky;
+
+top:1px;
+
+left: 20px;
+
+width:100px;
+
+border: 3px solid rgb(243, 1, 187);
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div>This is static positioning</div>
+
+<br>
+
+<div class="absolute">This is absolute positioning</div>
+
+<br>
+
+<br>
+
+<div class="relative">This is relative positioning</div>
+
+<br>
+
+<div class="fixed">this is a fixed positioning
+
+
+</div>
+
+<div class="sticky">This is sticky positioning</div>
+
+
+</body>
+
+</html>
